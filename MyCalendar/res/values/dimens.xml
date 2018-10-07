@@ -1,0 +1,55 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="text_size_8">8.0sp</dimen>
+    <dimen name="text_size_9">9.0sp</dimen>
+    <dimen name="text_size_10">10.0sp</dimen>
+    <dimen name="text_size_11">11.0sp</dimen>
+    <dimen name="text_size_12">12.0sp</dimen>
+    <dimen name="text_size_13">13.0sp</dimen>
+    <dimen name="text_size_14">14.0sp</dimen>
+    <dimen name="text_size_15">15.0sp</dimen>
+    <dimen name="text_size_16">16.0sp</dimen>
+    <dimen name="text_size_17">17.0sp</dimen>
+    <dimen name="text_size_18">18.0sp</dimen>
+    <dimen name="text_size_19">19.0sp</dimen>
+    <dimen name="text_size_20">20.0sp</dimen>
+    <dimen name="text_size_23">23.0sp</dimen>
+    <dimen name="text_size_25">25.0sp</dimen>
+    <dimen name="text_size_26">26.0sp</dimen>
+    <dimen name="text_size_28">28.0sp</dimen>
+    <dimen name="text_size_30">30.0sp</dimen>
+
+    <!-- 日历 -->
+    <dimen name="calendar_item_layout_padding">0.1dp</dimen>
+    <!-- 日历GridView的Item布局内容填充大小 -->
+    <dimen name="calendar_item_text_size">20sp</dimen>
+    <!-- 日历GridView的Item内间距大小 -->
+    <dimen name="calendar_item_padding">4dp</dimen>
+    <!-- 日历Item日字体大小 -->
+    <dimen name="calendar_week_day_text_size">18sp</dimen>
+    <!-- 日历中的星期的字体大小 -->
+    <dimen name="calendar_week_day_item_marginLeft">5dp</dimen>
+    <!-- 日历中的星期的边距 -->
+    <dimen name="calendar_week_day_item_marginRight">5dp</dimen>
+    <!-- 日历中的星期的边距 -->
+    <dimen name="calendar_week_day_item_marginTop">5dp</dimen>
+    <!-- 日历中的星期的边距 -->
+    <dimen name="calendar_week_day_item_marginBottom">5dp</dimen>
+    <!-- 日历中的星期的边距 -->
+
+
+    <!-- 日程模块日程内容上边距大小 -->
+    <dimen name="leader_schedule_calendar_bar_previours_btn_marginLeft">20dp</dimen>
+    <!-- 日程模块选择时间上一月按钮左边距 -->
+    <dimen name="leader_schedule_calendar_bar_next_btn_marginRight">20dp</dimen>
+    <!-- 日程模块选择时间下一月按钮右边距 -->
+    <dimen name="leader_schedule_view_maring_top_spacing">1dp</dimen>
+    <!-- 日程日程详情内容填充大小 -->
+    <dimen name="leader_schedule_Schedule_Calendar_text_size">20sp</dimen>
+
+</resources>

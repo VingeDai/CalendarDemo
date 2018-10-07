@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/calendar_title_bg" >
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="打卡记录"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_23" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:src="@drawable/hor_divider" />
+
+    <RelativeLayout
+        android:id="@+id/calendar_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/calendar_top_bg" >
+
+        <ImageView
+            android:id="@+id/calendar_bar_iv_previours"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/leader_schedule_calendar_bar_previours_btn_marginLeft"
+            android:src="@drawable/arrow_left" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/leader_schedule_calendar_bar_previours_btn_marginLeft"
+            android:layout_toRightOf="@id/calendar_bar_iv_previours"
+            android:src="@drawable/vic_divider" />
+
+        <ImageView
+            android:id="@+id/calendar_bar_iv_next"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/leader_schedule_calendar_bar_next_btn_marginRight"
+            android:src="@drawable/arrow_right" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/leader_schedule_calendar_bar_next_btn_marginRight"
+            android:layout_toLeftOf="@id/calendar_bar_iv_next"
+            android:src="@drawable/vic_divider" />
+
+        <TextView
+            android:id="@+id/calendar_bar_tv_date"
+            style="@style/CalendarTitleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/leader_schedule_view_maring_top_spacing"
+        layout="@layout/calendar_weekdays_layout" />
+
+    <com.widget.mycalendar.CalendarGridView
+        android:id="@+id/calendar_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:numColumns="7" />
+
+</LinearLayout>

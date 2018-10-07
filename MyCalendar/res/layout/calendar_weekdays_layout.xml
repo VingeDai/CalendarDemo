@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/calendar_weekday"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/week_num_bg"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/week_sunday"
+        style="@style/CalendarWeekDayText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="日" />
+
+    <TextView
+        android:id="@+id/week_monday"
+        style="@style/CalendarWeekDayText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="一" />
+
+    <TextView
+        android:id="@+id/week_tuesday"
+        style="@style/CalendarWeekDayText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="二" />
+
+    <TextView
+        android:id="@+id/week_wednesday"
+        style="@style/CalendarWeekDayText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="三" />
+
+    <TextView
+        android:id="@+id/week_thursday"
+        style="@style/CalendarWeekDayText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="四" />
+
+    <TextView
+        android:id="@+id/week_friday"
+        style="@style/CalendarWeekDayText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="五" />
+
+    <TextView
+        android:id="@+id/week_saturday"
+        style="@style/CalendarWeekDayText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="六" />
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="week_num_bg">#DCE5EE</color>
+    <color name="cell_bg">#C5C3C3</color>
+    <color name="current_day_txt">#3D75BE</color>
+    <color name="weekend_day_txt">#A5A5A5</color>
+    <color name="defalut_day_txt">#585858</color>
+    <color name="week_num_txt">#9CABBA</color>
+    <color name="date_des_txt">#9BB0D5</color>
+    <color name="tip_normal">#92DA62</color>
+    <!-- 日历中正常的出勤提示色 -->
+    <color name="tip_leave">#A362DA</color>
+    <!-- 日历中请假的提示色 -->
+    <color name="tip_late">#DA6262</color>
+    <!-- 日历中缺勤/迟到的提示色 -->
+
+</resources>
